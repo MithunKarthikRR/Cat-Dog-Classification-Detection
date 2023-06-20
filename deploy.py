@@ -15,8 +15,7 @@ Generate_pred=st.sidebar.button("Predict")
 
 basemodel = tf.keras.models.load_model('models/basemodel.h5')
 vgg16 = tf.keras.models.load_model('models/vgg.h5')
-# yolov8 = pickle.load(open('models/yolov8n.pkl', 'rb'))
-yolov8 = tf.keras.models.load_model('models/yolov8n.pt')
+yolov8 = pickle.load(open('models/yolov8n.pkl', 'rb'))
 
 def model_pred(image_data, model):
     size = (128,128)
