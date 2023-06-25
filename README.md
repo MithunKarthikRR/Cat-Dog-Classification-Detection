@@ -19,11 +19,9 @@ The application aims to classify and detect cats and dogs in images. The applica
 
 Clone down the repository. You will need `tensorflow` and `streamlit` packages installed globally on your machine.  
 
-`pip install tensorflow`
-
-`pip install streamlit`
-
 `cd Cat-Dog-Classification-Detection`
+
+`pip install -r requirements.txt`
 
 To Start Streamlit Server:
 
