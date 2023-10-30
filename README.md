@@ -1,4 +1,4 @@
-# Cat-Dog-Classification&Detection Application
+# Cat-Dog-Classification and Detection Application
 
 ## ❗ Description
 
